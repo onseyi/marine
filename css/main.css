@@ -1,0 +1,369 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400);
+@import url(https://fonts.googleapis.com/css?family=Baloo:400);
+@import "animate.min.css";
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+p {
+    line-height: 1.7;
+}
+h1, h2, h3, h4, h5, h6 {font-weight:600; }
+
+.navbar-dark .navbar-nav .nav-link {color:#333;}
+.navbar-black .navbar-brand:hover{color:#f56600}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.8rem;
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus, .active {
+  color: #0fa8e1 !important;
+}
+.navbar-dark .navbar-toggler {
+    color: #333 !important;
+    border-color:#ccc !important;
+}
+.navbar-toggler-icon{
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,149,218, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn {cursor: pointer;}
+.dropdown-content a:hover {background-color: #005473;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: none;}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	left: 0;
+	background-color: #007daa;
+	min-width: 250px;
+	/*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+	z-index: 1;
+	font-size: 13px;
+	/* top: 60px; */
+	top: 36px;
+}
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.carousel-caption {
+	position: relative;
+	top: 21%;
+	text-align: left;
+}
+.carousel-item {
+  height: 75vh;
+  min-height: 400px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg-yellow {
+  background-color:#ffcb08;
+}
+.bg-green {
+  background-color:#a6ce39;
+}
+.bg-dblue {
+  background-color:#1d2353;
+}
+.col-b{color:#1d2353;}
+.col-bl{color:#0fa8e1;}
+.col-r{color:#ed1c24;}
+.col-bk{color:#333;;}
+
+.font-x{font-size: 13px}
+.font-x1{font-size: 15px}
+.font-x1s{font-size: 18px}
+.font-x2s{font-size: 22px}
+.font-x2x{font-size: 24px}
+.font-x2{font-size: 27px}
+.font-x3{font-size: 30px}
+.font-x4{font-size: 40px}
+
+.p-6{padding: 7% !important;}
+.p-8{padding: 10% !important;}
+
+.card-body {
+    padding: 1.0rem;
+}
+
+.cricle {
+	padding: 70px 30px;
+	background-color: #ed1c24;
+	width: 180px;
+	height: 180px;
+	margin: 0 auto;
+	border-radius: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+.cricle1 {
+	padding: 70px 30px;
+	background-color: #0095da;
+	width: 180px;
+	height: 180px;
+	margin: 0 auto;
+	border-radius: 100%;
+	text-align: center;
+	font-weight: bold;	
+}
+.cricle2 {
+	padding: 70px 30px;
+	background-color: #ffcb08;
+	width: 180px;
+	height: 180px;
+	margin: 0 auto;
+	border-radius: 100%;
+	text-align: center;
+	font-weight: bold;	
+}
+.cricle3 {
+	padding: 70px 30px;
+	background-color: #a6ce39;
+	width: 180px;
+	height: 180px;
+	margin: 0 auto;
+	border-radius: 100%;
+	text-align: center;
+	font-weight: bold;	
+}
+
+.btn-red {
+    color: #fff;
+    background-color: #ed1c24;
+    border: 1px solid #ed1c24;
+}
+
+@keyframes zoom {
+  0% {
+    background-size: 100% 100%;
+  }
+  50% {
+    background-size: 120% 120%;
+  }
+  100% {
+    background-size: 100% 100%;
+  }
+}
+
+section {
+
+}
+section:nth-child(odd) {text-align:left;}
+section:nth-child(3) a:hover{color:#fff;}
+section:nth-child(4) {	
+	width: 100%;
+    min-height: 500px;
+    padding: 20px 0;
+    background: url('../images/bann.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(27, 30, 37, 0.73);
+	animation: zoom 30s infinite;
+}	
+section:nth-child(4) a{color:#fff; text-decoration:none;}
+section:nth-child(4) h6{font-weight:bold;}
+section:nth-child(5) h2{font-weight:bold;}
+#brandvd {	
+	color: #fff;
+	min-height: 300px;
+	padding: 100px 0;
+	box-shadow: inset 0 0 0 2000px rgba(35, 35, 35, 0.7);
+    /*background: url('../images/ban.jpg');*/
+	background-size: cover;
+}
+#brandvd i {color:#0095da;}
+
+#about-1{
+   background-color:#f4f4f4;
+}
+
+.sban{	
+    background: url(../images/brownfield.jpg) no-repeat;	
+	height: 411px;
+    width: 1px;
+	transition: all 2s ease-out; opacity: 0;
+}
+.delighter.started .sban {
+	width: 100%; opacity: 1;
+}
+.sban1{	
+    background: url(../images/subsea.jpg) no-repeat;	
+	height: 411px;
+    width: 1px;
+	transition: all 2s ease-out; opacity: 0;
+}
+.delighter.started .sban1 {
+	width: 100%; opacity: 1;
+}
+
+footer{
+	background-color: #1d2353;
+	color:#fff;
+	 font-size: 15px; 
+}
+footer font{color:#ed1c24; font-size: 15px; font-weight:bold;}
+footer a{color:#fff;}
+
+.hovereffect {
+	width:100%;
+	height:100%;
+	float:left;
+	overflow:hidden;
+	position:relative;
+	text-align:center;
+	cursor:default;
+}
+
+.hovereffect .overlay {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:0;
+	background-color:rgba(0,0,0,0.5);
+	-webkit-transition:all .4s ease-in-out;
+	transition:all .4s ease-in-out
+}
+
+.hovereffect img {
+	display:block;
+	position:relative;
+	width: 100%;
+	-webkit-transition:all .4s linear;
+	transition:all .4s linear;
+}
+
+.hovereffect h2 {
+text-transform:uppercase;
+color:#fff;
+text-align:center;
+position:relative;
+font-size:17px;
+}
+
+.hovereffect:hover img {
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+
+.info{
+	position: absolute;
+	padding: 0 30px;
+	top: 113px;
+	z-index: 10;
+	width: 100%;
+}
+
+.banner {
+    min-height: 300px;
+    background: url('../images/sban.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(29, 35, 83, 0.73);
+}
+.banner p {font-size:11px;}
+.contact {
+    min-height: 300px;
+    background: url('../images/contact.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(29, 35, 83, 0.73);
+}
+.contact p {font-size:11px;}
+.safe {
+    min-height: 300px;
+    background: url('../images/safe.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(29, 35, 83, 0.73);
+}
+.safe p {font-size:11px;}
+.career {
+    min-height: 300px;
+    background: url('../images/career.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(29, 35, 83, 0.73);
+}
+.career p {font-size:11px;}
+.found {
+    min-height: 300px;
+    background: url('../images/found.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(29, 35, 83, 0.73);
+}
+.found p {font-size:11px;}
+
+.dform {
+    border: 2px solid #c4c4c4;
+	border-radius: 5px;
+    font-size:12px;
+    outline: none;
+    box-shadow: none;
+    padding:12px;
+    width: 100%;
+}
+
+.pt6{padding-top: 6rem !important;}
+.pt7{padding-top: 7rem !important;}
+.imc{border-radius: 50%; width:47px; height:47px;}
+
+.cv{
+	border: 1px solid #f9f9f9;
+	background: #fcfcfc;
+	border-radius: 5px;
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media screen and (max-width:750px){
+	
+}
+
+@media screen and ( max-width: 360px ){	
+	.carousel-caption h1{
+		margin: 0 3%;
+		font-size: 25px;
+	}	
+}
+	
+
